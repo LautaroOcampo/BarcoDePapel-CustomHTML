@@ -74,6 +74,10 @@ let tituloCategoria = document.getElementsByClassName('ui-search-breadcrumb__tit
 const cambiarTituloCategoria = (codigo, categoria) => {
     if(URLactual === `/${codigo}` || URLactual === `/${codigo}_DisplayType_G`){
         tituloCategoria.innerText = categoria
+        document.title = `Barco de Papel | ${categoria}`
+    }else if(URLactual === codigo){
+        tituloCategoria.innerText = categoria
+        document.title = `Barco de Papel | ${categoria}`
     }
 }
 
@@ -98,12 +102,14 @@ setTimeout(() => {
     cambiarTituloCategoria('bdp42','Juegos de memoria')
     cambiarTituloCategoria('bdp43','Primeros encastres')
     
-    cambiarTituloCategoria('bdp61','+18 Meses')
-    cambiarTituloCategoria('bdp62','+3 Años')
-    cambiarTituloCategoria('bdp63','+5 Años')
-    cambiarTituloCategoria('bdp64','+6 Años')
-    cambiarTituloCategoria('bdp65','+8 Años')
-    cambiarTituloCategoria('bdp66','+12 Años')
+    cambiarTituloCategoria('/_DisplayType_G_MIN*RECOMMENDED*AGE_1a%C3%B1os-3a%C3%B1os_NoIndex_True','+18 Meses')
+    cambiarTituloCategoria('/_DisplayType_G_MIN*RECOMMENDED*AGE_3a%C3%B1os-5a%C3%B1os_NoIndex_True','+3 Años')
+    cambiarTituloCategoria('/_DisplayType_G_MIN*RECOMMENDED*AGE_5a%C3%B1os-6a%C3%B1os_NoIndex_True','+5 Años')
+    cambiarTituloCategoria('/_DisplayType_G_MIN*RECOMMENDED*AGE_6a%C3%B1os-8a%C3%B1os_NoIndex_True','+6 Años')
+    cambiarTituloCategoria('/_DisplayType_G_MIN*RECOMMENDED*AGE_8a%C3%B1os-12a%C3%B1os_NoIndex_True','+8 Años')
+    cambiarTituloCategoria('/_DisplayType_G_MIN*RECOMMENDED*AGE_12a%C3%B1os-*_NoIndex_True','+12 Años')
+
+    cambiarTituloCategoria('bdp99','Combos')
 
 }, 500)
 
@@ -130,5 +136,22 @@ arrows[1].addEventListener('click', () => {
     }else if(position > 1){
         arrows[0].classList.remove('invisible')
     }
+});
+
+let lupa = document.querySelectorAll('.explorer-header__svg path')[1]
+let form = document.getElementById('search-form')
+let input = document.getElementById('search-input')
+let boton = document.getElementById('nav-search-button')
+
+boton.addEventListener('click', () => {
+
+    lupa.style.fill = 'rgb(133, 4, 226)'
+    form.style.backgroundColor = '#ffffff'
+
+})
+
+input.addEventListener('focus', () => {
+    searchInput.style.outline = 'none';
+    searchInput.style.border = 'none';
   });
 
