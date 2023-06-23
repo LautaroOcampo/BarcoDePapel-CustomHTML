@@ -96,7 +96,7 @@ if(URLactual === '/55-feria-del-juguete'){
             <div class="art-h2">
                 <h2>55° FERIA DEL JUEGUETE</h2>
             </div>
-            <img src="https://iili.io/Hg1VzkN.jpg"/>
+            <img src="https://iili.io/HPlWzqN.webp"/>
             <div class="art-text2">
                 <div>
                     <p style="margin: 30px 0" >  Nos encanta participar de la feria del juguete organizada por la CAIJ en Costa Salguero, pero ésta edición fue algo especial. Nos reunió a todos de forma presencial luego de la pandemia, fabricantes y jugueteros; clientes, colegas, y amigos. Pudimos presentar novedades, hablar mirándonos y estrechar distancias, compartir un café. Con muchos nos pudimos conocer y con otros nos volvimos a dar un abrazo.</p>
@@ -126,7 +126,7 @@ if(URLactual === '/55-feria-del-juguete'){
             <div class="art-h2">
                 <h2>55° FERIA DEL JUEGUETE</h2>
             </div>
-            <img src="https://iili.io/Hg1VzkN.jpg"/>
+            <img src="https://iili.io/HPlWzqN.webp"/>
             <div class="art-text2">
                 <div>
                     <p style="margin: 30px 0" >  Nos encanta participar de la feria del juguete organizada por la CAIJ en Costa Salguero, pero ésta edición fue algo especial. Nos reunió a todos de forma presencial luego de la pandemia, fabricantes y jugueteros; clientes, colegas, y amigos. Pudimos presentar novedades, hablar mirándonos y estrechar distancias, compartir un café. Con muchos nos pudimos conocer y con otros nos volvimos a dar un abrazo.</p>

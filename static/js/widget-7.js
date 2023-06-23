@@ -33,7 +33,7 @@ if(URLactual === '/mayoristas'){
                 </div>
             </div>
             
-            <a href="https://pdfhost.io/v/nuUa6RlPc_CATALOGO_BARCO_DE_PAPEL_2023" target="_blank" class="may-catalogo">
+            <a href="https://pdfhost.io/v/INZNASKpq_CATALOGO_BARCO_DE_PAPEL_2023" target="_blank" class="may-catalogo">
                 <img src="https://iili.io/HUrqJat.png"/>
             </a>
         </div>
@@ -68,7 +68,7 @@ if(URLactual === '/mayoristas'){
                 </div>
             </div>
             
-            <a href="https://pdfhost.io/v/nuUa6RlPc_CATALOGO_BARCO_DE_PAPEL_2023" target="_blank" class="may-catalogo">
+            <a href="https://pdfhost.io/v/INZNASKpq_CATALOGO_BARCO_DE_PAPEL_2023" target="_blank" class="may-catalogo">
                 <img src="https://iili.io/HUrqJat.png"/>
             </a>
         </div>

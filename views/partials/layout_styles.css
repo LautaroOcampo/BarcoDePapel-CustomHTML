@@ -3348,9 +3348,10 @@ span.price-tag.ui-item__price {
 }
 
 .article-img1{
-    background-image: url('https://iili.io/HrsHjJ2.webp');
+    background-image: url('https://iili.io/HPlWzqN.webp');
     height: 259px;
     width: 100%;
+    background-size: cover;
 }
 
 .article-img1 div{
